@@ -1,0 +1,41 @@
+#title {
+    font-weight: bold;
+    font-size: 45px;
+    text-shadow: 0 0 1px maroon;
+}
+body {
+    position: relative;
+}
+
+#news {
+    position: absolute;
+    width: 25%;
+    left: 65%;
+    top: 20%;
+    font-size: 25px; 
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    border: 1px solid maroon;
+    box-shadow: 0 0 10px 0 maroon;
+
+}
+
+#newsHead {
+    text-align: center;
+    font-weight: 10px;
+    font-size: 25px; 
+
+}
+
+#newsBody {
+    font-weight: 5px;
+    font-size: 18px; 
+}
+
+#newsImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    width: 70%;
+    height: 50%;
+}
