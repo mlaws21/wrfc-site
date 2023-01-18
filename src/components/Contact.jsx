@@ -7,12 +7,12 @@ function importAll(r) {
     return images;
 }
 
-const images = importAll(require.context('./images/roster', false, /\.png/));
+const images = importAll(require.context('./images/roster', false, /\.jpeg/));
 
 
 class Person extends React.Component {
     render() {
-        const last = this.props.name.split(" ")[1] + ".png";
+        const last = this.props.name.split(" ")[1] + ".jpeg";
         console.log(last)
 
         return (

@@ -26,11 +26,11 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run sync`
 
-pushes exsisting build file to aws server for live website.\
+pushes exsisting build file to aws server for live website.
 
 ### `npm run upload`
 
-builds and pushes the build file to aws server for live website.\
+builds and pushes the build file to aws server for live website.
 
 ### `npm test`
 

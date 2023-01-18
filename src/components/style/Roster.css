@@ -6,8 +6,8 @@
 #info {
     font-size: 1.1vw;
     font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; 
-    width: 12vw;
-    height: 15vw;
+    width: 12vw; /* keep const */
+    height: 12vw;
     /* border: 0.1vw solid maroon; */
 }
 
@@ -36,7 +36,7 @@
     }
     
     .pic {
-        height: 84vw;
+        height: 75vw;
         width: 75vw;
         margin: auto;
     }
