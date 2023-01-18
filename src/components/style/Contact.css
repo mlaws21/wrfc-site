@@ -1,0 +1,54 @@
+#pic {
+
+    height: 14vw;
+    width: 12.5vw;
+    margin: auto;
+}
+
+#ainfo {
+    font-size: 1.1vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.whole {
+ margin: auto;
+ padding-left: 4%;
+ padding-right: 4%;
+ text-align: center;
+}
+
+#aperson {
+    float: left;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 6%;
+}
+
+#name {
+    font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+
+    #title {
+        font-size: 12vw;
+    }
+    
+    #pic {
+        height: 84vw;
+        width: 75vw;
+        margin: auto;
+    }
+    
+    #ainfo {
+        font-size: 9vw;
+    }
+
+    #aperson {
+        width: 94%;
+        float: left;
+        padding-left: 3%;
+        padding-right: 3%;
+        text-align: center;
+    }
+}

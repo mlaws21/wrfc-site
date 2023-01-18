@@ -1,15 +1,23 @@
+p, a {
+    /* font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; 
+}
 #title {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; 
     font-weight: bold;
     font-size: 4vw;
-    text-shadow: 0 0 .1vw maroon;
+    /* text-shadow: 0 0 .1vw maroon; */
+    margin-top: 2.5%;
 }
 body {
     position: relative;
+    background-color: rgb(230, 214, 167);
 }
 
 #news {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+
     position: absolute;
     width: 25%;
     left: 65%;
@@ -39,4 +47,49 @@ body {
     margin-right: auto;  
     width: 15vw;
     height: 15vw;
+}
+
+@media (max-width: 1000px) {
+    #news {
+        left: 0%;
+        margin: auto;
+        /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+        font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; 
+        position: relative;
+        top: 10vw;
+        width: 54vw;
+        height: 70vw;
+        padding-right: 2.5%;
+        padding-left: 2.5%;
+        border: 0.1vw solid maroon;
+        box-shadow: 0 0 .8vw 0 maroon;
+    
+    }
+
+    #newsHead {
+        text-align: center;
+        font-weight: 1.3vw;
+        font-size: 3vw;
+    
+    }
+
+    #newsBody {
+        font-weight: 0.7vw;
+        font-size: 2.2vw; 
+    }
+
+    #newsImage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;  
+        width: 38vw;
+        height: 38vw;
+    }
+
+    #slider {
+        width: 60vw;
+        height: 35vw;
+        position: relative;
+        margin: auto;
+    }
 }

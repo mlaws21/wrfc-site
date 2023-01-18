@@ -4,7 +4,9 @@ function Navbar() {
 
     return (
         <header>
-            <img src={logo} alt='WRFC Logo'></img>
+            <div id="imgDiv">
+                <img src={logo} alt='WRFC Logo'></img>
+            </div>
             <ul>
                 <li>
                     <a href='/'>Home</a>

@@ -19,13 +19,16 @@ function Home() {
     return (
         <body>
             <p id='title'>Williams College Rugby Football Club</p>
-                <SimpleImageSlider
+                <div id="slider">
+                    <SimpleImageSlider
                     width={"60vw"}
                     height={"35vw"}
                     images={images}
                     showBullets={true}
                     showNavs={true}
-                />
+                    />
+                </div>
+                
             <div id='news'>
                 <p id='newsHead'>Recent News</p>
                 <img src={image} alt='Coach Tim and Flat Daddy' id='newsImage'></img>

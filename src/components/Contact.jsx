@@ -16,10 +16,10 @@ class Person extends React.Component {
         console.log(last)
 
         return (
-            <div id="person">
-                <img className="pic" src={images[last]} alt={last}/>
-                <div id="info">
-                    <p>{this.props.name}</p>
+            <div id="aperson">
+                <img id="pic" src={images[last]} alt={last}/>
+                <div id="ainfo">
+                    <p id="name">{this.props.name}</p>
                     <p>{this.props.onField}</p>
                     <p>{this.props.offField}</p>
                     <p>{this.props.job}</p>
