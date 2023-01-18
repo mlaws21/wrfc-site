@@ -1,0 +1,28 @@
+.matchData {
+    background-color: #7f1c19;
+    color: rgba(255, 196, 20, 0.89);
+    text-align: center;
+    font-size: 2vw;
+    padding: 2%;
+}
+
+#match {
+
+    display: grid;
+    width: 75%;
+    grid-template-columns: 19.2% 19.2% 19.2% 19.2% 19.2%;
+    column-gap: .7vw;
+    padding: .3vw;
+    background-color: #3e0c0b;
+    margin: auto;
+
+}
+
+#which {
+    font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; 
+    font-weight: bold;
+    position: relative;
+    left: 12.5%;
+    font-size: 3vw;
+    width: 20vw;
+}

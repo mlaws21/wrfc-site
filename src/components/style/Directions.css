@@ -1,0 +1,35 @@
+#map {
+    position: relative;
+    width: 90%;
+    left: 5%;
+    height: 35vw;
+
+}
+
+#address {
+    font-size: 2vw;
+    width: 90%;
+    position: relative;
+    padding-top: 1%;
+    left: 5%;
+
+}
+
+@media (max-width: 1000px) {
+    #map {
+        left: 5%;
+        position: relative;
+        width: 90%;
+        height: 100vw;
+    
+    }
+
+    #address {
+        font-size: 5vw;
+        width: 90%;
+        position: relative;
+        padding-top: 1%;
+        left: 5%;
+    
+    }
+}
