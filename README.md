@@ -4,20 +4,20 @@ Website Hosted on AWS at: williamscollegerugby.com
 
 Created by Matt Laws
 
-Useful commands for testing repo:
+## Useful commands for testing repo:
 
-*npm start
+### npm start
 
-**Hosts the code locally for testing at localhost:3000/
+* Hosts the code locally for testing at localhost:3000/
 
-*npm build
+### npm build
 
-**Builds code for launching
+* Builds code for launching
 
-*npm sync
+### npm sync
 
-**Syncs build file to the AWS hosting
+* Syncs build file to the AWS hosting
 
-*npm upload
+### npm upload
 
-**Builds and Syncs in 1 call
+* Builds and Syncs in 1 call
