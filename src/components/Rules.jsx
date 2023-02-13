@@ -1,8 +1,20 @@
+import tenRules from "./files/rules.jsx";
+import React from "react";
+
+function build() {
+    var myBuild = []
+    for (var i = 0; i < tenRules.length; i++) {
+        myBuild.push(<li>{tenRules[i]}</li>)
+    }
+    return myBuild;
+}
 function Rules() {
     return (
-        <dev>
-            <h1>Rules</h1>
-        </dev>
+        <div>
+            <p id="title">Rules</p>
+            <ol id="dnote">{build()}</ol>
+            <a id="dnote" href="https://www.world.rugby/the-game/laws/home">Link to full Laws of Rugby</a> 
+        </div>
     )
 }
 

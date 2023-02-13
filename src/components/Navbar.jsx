@@ -43,6 +43,10 @@ function Navbar() {
                 <li>
                     <a href='/donate'>Donate</a>
                 </li>
+
+                {/* <li>
+                    <a href='/login'>Login</a>
+                </li> */}
             </ul>
         </header>
     )

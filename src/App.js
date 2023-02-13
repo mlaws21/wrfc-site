@@ -10,6 +10,9 @@ import Directions from './components/Directions';
 import Rules from './components/Rules';
 import Roster from './components/Roster';
 import Merch from './components/Merch';
+import Login from './components/Login';
+import Error from './components/Error';
+
 
 
 
@@ -29,6 +32,8 @@ function App() {
         <Route path='/merch' element={<Merch />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/donate' element={<Donate />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='*' element={<Error />} />
       </Routes>
     </dev>
   );

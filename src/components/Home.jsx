@@ -1,14 +1,15 @@
 import SimpleImageSlider from "react-simple-image-slider";
 import './style/Home.css';
-import img1 from './images/1.jpg';
-import img2 from './images/2.png';
-import img3 from './images/3.png';
+import img1 from './images/slideshow/1.jpg';
+import img2 from './images/slideshow/2.jpg';
+import img3 from './images/slideshow/3.jpg';
+import img4 from './images/slideshow/4.jpg';
 import news from './files/news.jsx';
 import image from './files/newsImage.png';
 
 
 const images = [
-    img1, img2, img3,
+    img1, img2, img3, img4,
     // { url: "images/4.jpg" },
     // { url: "images/5.jpg" },
     // { url: "images/6.jpg" },
