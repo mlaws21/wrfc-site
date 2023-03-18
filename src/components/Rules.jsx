@@ -1,5 +1,7 @@
 import tenRules from "./files/rules.jsx";
 import React from "react";
+import "./style/Rules.css";
+
 
 function build() {
     var myBuild = []

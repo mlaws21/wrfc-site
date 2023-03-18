@@ -1,3 +1,3 @@
-const text= "The WRFC beat Amherst 28-27 in the final seconds of their last game of the season. This victory marks the WRFC's third consecutive victory against 'Herst'.";
+const text= "The WRFC has made the decision to play rugby 7s for the Spring 2023 Season marking the first time the team has played a season of sevens in the history of the club."
 
 export default text;

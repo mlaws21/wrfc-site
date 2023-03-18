@@ -1,16 +1,16 @@
 const schedule = [
     
     //["Date", "Team", "Location", "Time", "Final Score"],
-    ["Spring 2023", 
+    ["Spring 2023 (7s)" 
         [
             ["Date", "Team", "Location", "Time", "Final Score"],
-            ["April 8, 2023", "Union Tournament", "Union College", "TBD", "TBD"],
+            ["April 8, 2023", "Wesleyan Tournament", "Wesleyan", "TBD", "TBD"],
             ["April 15, 2023", "JD Tournament", "Home", "TBD", "TBD"],
             ["April 22, 2023", "Amherst", "Home", "TBD", "TBD"]
         ]
     ],
 
-    ["Fall 2022", 
+    ["Fall 2022 (15s)", 
     [
         ["Date", "Team", "Location", "Time", "Final Score"],
         ["September 17, 2022", "Trinity", "Home", "12:00pm", "14-28 (Loss)"],
