@@ -1,7 +1,7 @@
 const schedule = [
     
     //["Date", "Team", "Location", "Time", "Final Score"],
-    ["Spring 2023 (7s)" 
+    ["Spring 2023 (7s)",
         [
             ["Date", "Team", "Location", "Time", "Final Score"],
             ["April 8, 2023", "Wesleyan Tournament", "Wesleyan", "TBD", "TBD"],
