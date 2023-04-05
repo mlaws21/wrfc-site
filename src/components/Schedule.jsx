@@ -10,7 +10,12 @@ class SubSzn extends React.Component {
                 <div className="matchData">{this.props.date}</div>
                 <div className="matchData">{this.props.team}</div>
                 <div className="matchData">{this.props.location}</div>
-                <div className="matchData">{this.props.time}</div>
+                
+                <div className="matchData">
+                    <a href={this.props.link}>
+                        {this.props.time}
+                    </a>
+                </div>
                 <div className="matchData">{this.props.score}</div>
             </div>
         )
@@ -19,7 +24,7 @@ class SubSzn extends React.Component {
 
 function buildMatch(currMatch) {
     var matchData = [];
-    matchData.push(<SubSzn date={currMatch[0]} team={currMatch[1]} location={currMatch[2]} time={currMatch[3]} score={currMatch[4]} />)
+    matchData.push(<SubSzn date={currMatch[0]} team={currMatch[1]} location={currMatch[2]} time={currMatch[3]} score={currMatch[4]} link={currMatch[5]}/>)
     return matchData;
 }
 class Season extends React.Component {
