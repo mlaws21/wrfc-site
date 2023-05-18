@@ -5,7 +5,7 @@ import img2 from './images/slideshow/2.jpg';
 import img3 from './images/slideshow/3.jpg';
 import img4 from './images/slideshow/4.jpg';
 import news from './files/news.jsx';
-import image from './files/newsImage.png';
+import image from './images/newsImage.png';
 
 
 const images = [

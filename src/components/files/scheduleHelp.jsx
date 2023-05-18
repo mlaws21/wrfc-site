@@ -4,8 +4,8 @@ const schedule = [
     ["Spring 2023 (7s)",
         [
             ["Date", "Team", "Location", "Time", "Final Score", null],
-            ["April 8, 2023", "Wesleyan Tournament", "Wesleyan", "11:30am - 3:30pm", "TBD", "https://www.instagram.com/p/Cqnc26igS3Y/"],
-            ["April 15, 2023", "JD Tournament", "Home", "TBD", "TBD", null],
+            ["April 8, 2023", "Wesleyan Tournament", "Wesleyan", "11:30am - 3:30pm", "Semi-finals with 3 wins and 3 losses", "https://www.instagram.com/p/Cqnc26igS3Y/"],
+            ["April 15, 2023", "JD Tournament", "Home", "10:00am-12:00", "3 Wins 0 losses", null],
             ["April 22, 2023", "Amherst", "Home", "TBD", "TBD", null]
         ]
     ],
