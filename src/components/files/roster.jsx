@@ -1,4 +1,4 @@
-// const {position} = [{name}, {On field Position}, {off field positon}, {questions about:} {email}]
+//[{name}, {On field Position}, {off field positon}, {Major}]
 const importantPeople = [
 ["TJ Watkins '23", "Prop: 1", "Head of Community Values", "Geoscience & Romance Languages"],
 ["Matt Laws '25", "Hooker: 2", "Rookie Liason", "Computer Science"],
