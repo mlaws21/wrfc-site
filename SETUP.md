@@ -5,6 +5,6 @@
 
 * run "aws configure" and paste the keys
 
-* see above for other commands
+* see README.md for other commands
 
 * tutorial here: https://www.youtube.com/watch?v=_DIRSI07kxY&t=352s

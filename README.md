@@ -4,6 +4,8 @@ Website Hosted on AWS at: williamscollegerugby.com
 
 Created by Matt Laws
 
+For setting up new websmasters view: SETUP.md and for updating data view: UPDATE.md
+
 ## Useful commands for testing repo:
 
 ### npm start
