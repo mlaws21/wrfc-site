@@ -9,15 +9,23 @@ function importAll(r) {
 
 const images = importAll(require.context('./images/roster', false, /\.jpeg/));
 
+const CheckImage = (path) => {
+    try {
+     require(`${path}`);
+     return true;
+    } catch (err) {
+     return false;
+    }
+  };
 
 class Person extends React.Component {
     render() {
         const last = this.props.name.split(" ")[1] + ".jpeg";
-        console.log(last)
+        // console.log(last)
 
         return (
             <div id="person">
-                <img className="pic" src={images[last]} alt={last}/>
+                <img className="pic" src={CheckImage("./images/roster/" + last) ? images[last] : images["empty.jpeg"]} alt={last}/>
                 <div id="info">
                     <p id="name">{this.props.name}</p>
                     <p>{this.props.onField}</p>
