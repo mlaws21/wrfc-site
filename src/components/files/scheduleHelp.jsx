@@ -5,9 +5,9 @@ const schedule = [
     ["Fall 2023 (15s)",
     [
         ["Date", "Team", "Location", "Time", "Final Score", null],
-        ["October 7, 2023", "Wesleyan", "Wesleyan", "11:00am", null, null],
-        ["October 21, 2023", "Amherst", "Home", "1:00pm", null, null],
-        ["October 28, 2023", "Union", "Union", "1:00pm", null, null]
+        ["October 7, 2023", "Wesleyan", "Wesleyan", "11:00am", "56-7 (Win)", null],
+        ["October 21, 2023", "Amherst", "Home", "1:00pm", "0-8 (Loss)", null],
+        ["October 28, 2023", "Union", "Union", "CANCELLED", null, null]
 
     ]
     ],
