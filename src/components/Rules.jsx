@@ -15,7 +15,7 @@ function Rules() {
         <div>
             <p id="title">Rules</p>
             <ol id="dnote">{build()}</ol>
-            <a id="dnote" href="https://www.world.rugby/the-game/laws/home">Link to full Laws of Rugby</a> 
+            <a id="dnote" className="mylink" href="https://www.world.rugby/the-game/laws/home">Link to full Laws of Rugby</a> 
         </div>
     )
 }

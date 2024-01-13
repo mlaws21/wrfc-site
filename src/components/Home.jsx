@@ -19,7 +19,7 @@ const images = [
 function Home() {
     return (
         <body>
-            <p id='title'>Williams College Rugby Football Club</p>
+            <p id='title'>Williams Rugby Football Club</p>
                 <div id="slider">
                     <SimpleImageSlider
                     width={"60vw"}

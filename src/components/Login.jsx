@@ -1,4 +1,26 @@
-import React from "react";
+// import React from "react";
+// // var x = "test"
+// var pword = ""
+// function handleSubmit(e) {
+//     // Prevent the browser from reloading the page
+//     e.preventDefault();
+
+//     // Read the form data
+//     const form = e.target;
+//     const formData = new FormData(form);
+
+
+//     // You can pass formData as a fetch body directly:
+//     // fetch('/some-api', { method: form.method, body: formData });
+
+//     // // Or you can work with it as a plain object:
+//     const formJson = Object.fromEntries(formData.entries());
+//     console.log(formJson["pword"]);
+//     pword = formJson["pword"]
+    
+// }
+
+
 
 // class Hidden extends React.Component {
 //     constructor(props) {
@@ -8,6 +30,8 @@ import React from "react";
 //         }
 
 //     }
+
+    
 //     renderOpen() {
 //         return (
 //             <h1>OPEN</h1>
@@ -17,8 +41,17 @@ import React from "react";
 //     renderClosed() {
 //         return (
 //             <div>
-                
-//                 <div onClick={() => this.setState({open: true,})}> 
+//                 <form method="post" onSubmit={handleSubmit}>
+//                 <label>
+//                     Text input: <input name="pword" defaultValue="Some initial value" />
+//                 </label>
+//                 <hr />
+//                 {/* <button type="submit">Submit form</button> */}
+//                 </form>
+//                 {/* {() => if (pword == "whitedawgs69") {
+//                     this.setState({open: true,})
+//                 }} */}
+//                 <div onClick={() => handleSubmit(pword)}> 
 //                     Login
 //                 </div>
 //             </div>
@@ -37,13 +70,13 @@ import React from "react";
 //     }
 // }
 
-function Login() {
-    return (
-        <div>
-            <h1>404 Page Not Found</h1>
+// function Login() {
+//     return (
+//         <div>
+//             <h1>404 Page Not Found</h1>
 
-            {/* <Hidden /> */}
-        </div>
-    )
-}
-export default Login;
+//             <Hidden />
+//         </div>
+//     )
+// }
+// export default Login;

@@ -1,33 +1,45 @@
-
 header img {
     height: 5vw;
     margin-left: 2vw;
 }
+/* Navbar.css */
+
 
 header {
-    background-color: rgb(186, 137, 137);;
+    background-color: rgb(186, 137, 137);
     position: relative;
     top: 0;
     left: 0;
     right: 0;
-    height: 5.5vw;
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between; /* Added justification to evenly space the logo and list items */
     box-shadow: 0 0 1.5vw 0 black;
 }
 
-header * {
+#imgDiv {
+    margin-top: 1vw; /* Adjusted the margin-top */
 
-    display: inline;
+    margin-left: 2vw;
 }
 
-header li {
-    margin: 1vw;
+ul {
+
+    list-style: none;
+    display: flex;
+    margin-top: 1vw; /* Remove the default margin */
+    padding: 0; /* Remove the default padding */
+}
+
+li {
+    margin-top: 1vw;
+    
+    margin-right: 1.5vw;
     font-size: 1.2vw;
 }
 
-header li a {
+a {
     color: black;
     text-decoration: none;
 }
@@ -36,45 +48,41 @@ a:hover {
     text-shadow: 0 0 1vw black;
 }
 
+#x {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+}
+
+
+
 @media (max-width: 1000px) {
 
-    #imgDiv {
-
-        width: 2vw;
-        height: 8.5vw;
-    }
-    header img {
-        width: 9vw;
-        height: 9vw;
-    }
-
-
-    header {
-        background-color: rgb(186, 137, 137);
-        position: relative;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 10vw;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        box-shadow: 0 0 1.5vw 0 black;
-    }
-
-    header * {
-        display: inline;
-    }
-
-    header li {
-        padding-left: 0;
-        margin: 1vw;
+    #menuButton {
+        position: absolute;
+        left: 90%;
+        text-align: right;
         font-size: 2.5vw;
     }
 
-    header li a {
-        color: black;
-        text-decoration: none;
+    header {
+
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center; /* Center the list items vertically */
+        height: auto;
+        padding: 1vw;
+        align-items: center;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center; /* Center the list items horizontally */
+        margin: 0;
+    }
+
+    li {
+        margin: 0.5vw 0;
+        font-size: 2.5vw;
     }
 
     a:hover {
@@ -82,4 +90,9 @@ a:hover {
     }
 
 
+    header img {
+        margin-left: 0;
+        width: 9vw;
+        height: 9vw;
+    }
 }

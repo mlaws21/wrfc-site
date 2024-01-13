@@ -12,6 +12,8 @@ import Roster from './components/Roster';
 import Merch from './components/Merch';
 import Login from './components/Login';
 import Error from './components/Error';
+import Reunion from './components/Reunion';
+
 
 
 
@@ -20,7 +22,7 @@ import Error from './components/Error';
 
 function App() {
   return (
-    <dev>
+    <div>
       < Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
@@ -32,10 +34,11 @@ function App() {
         <Route path='/merch' element={<Merch />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/donate' element={<Donate />} />
+        <Route path='/reunion' element={<Reunion />} />
         <Route path='/login' element={<Login />} />
         <Route path='*' element={<Error />} />
       </Routes>
-    </dev>
+    </div>
   );
 }
 

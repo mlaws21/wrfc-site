@@ -10,7 +10,7 @@ function About() {
             The following fall, the WRFC entered the Eastern Rugby Union (ERU) and won the ERU Championship in 1960 with a 5-0-1 record. 
             Following a 1961 tour in England, support and recognition from the College increased dramatically.
             </p>
-            <a id="dnote" href="https://en.wikipedia.org/wiki/Williams_Rugby_Football_Club">Link to the WRFC Wikipedia Page</a> 
+            <a id="dnote" className="mylink" href="https://en.wikipedia.org/wiki/Williams_Rugby_Football_Club">Link to the WRFC Wikipedia Page</a> 
         </dev>
     )
 }

@@ -1,14 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Titillium+Web:wght@200&display=swap');
+
+
 p, a {
     /* font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-    font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; 
+    font-family: "Marcellus SC", serif;
+    font-weight: bold;
+
 }
 #title {
     /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-    font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; 
-    font-weight: bold;
+    /* font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;  */
+    font-family: "Marcellus SC", serif;
+
+    font-weight: bolder;
     font-size: 4vw;
     /* text-shadow: 0 0 .1vw maroon; */
-    margin-top: 2.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.2%;
+
 }
 body {
     position: relative;
@@ -47,6 +57,12 @@ body {
     margin-right: auto;  
     width: 15vw;
     height: 15vw;
+}
+
+.mylink {
+    /* text-shadow: 0 0 0.5vw maroon; */
+    text-decoration: underline;
+
 }
 
 @media (max-width: 1000px) {

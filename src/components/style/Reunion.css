@@ -1,0 +1,13 @@
+#rsvp {
+    color: maroon;
+
+    text-align: center; /* Center the text horizontally */
+    /* width: 100%;  */
+    font-size: 3vw;
+
+}
+
+#reunionMain {
+    display: flex;
+    justify-content: center;
+}

@@ -12,7 +12,7 @@ class SubSzn extends React.Component {
                 <div className="matchData">{this.props.location}</div>
                 
                 <div className="matchData">
-                    <a href={this.props.link}>
+                    <a className="matchData" href={this.props.link}>
                         {this.props.time}
                     </a>
                 </div>
