@@ -1,6 +1,15 @@
 const schedule = [
     
     //["Date", "Team", "Location", "Time", "Final Score", "link"],
+    ["Spring 2024 (7s)",
+    [
+        ["Date", "Team", "Location", "Time", "Final Score", null],
+        ["April 6, 2024", "Wesleyan Tournament", "Wesleyan", "TBD", null, null],
+        ["April 20 2024", "JD Tournament", "Home", "TBD", null, null],
+        ["April 27, 2024", "Amherst", "Amherst", "TBD", null, null]
+
+    ]
+    ],
 
     ["Fall 2023 (15s)",
     [

@@ -19,7 +19,7 @@ const importantPeople = [
     ["Elijah Adu '27", "Prop", "Rookie", "Undecided"],
     ["Otis Birnbaum '27", "Wing", "Rookie", "Undecided"],
     ["Ronak Dhingra '25", "Lock", "Merch Tzar", "Computer Science & Economics"],
-    ["Arthur Johnson '26", "Flanker", "Chiefton of Protocol", "Statistics & English"],
+    ["Arthur Johnson '26", "Flanker", "Chieftan of Protocol", "Statistics & English"],
     ["Charlie Halverson '26", "Wing", "Rookie Liason", "Undecided"],
     ["Evan Boyle '25", "Flanker", "Secretary", "Philosophy"],
     ["Bennett Snyder '25", "Wing", "Cartographer", "Undecided"],
