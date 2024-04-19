@@ -6,7 +6,9 @@ header img {
 
 
 header {
-    background-color: rgb(186, 137, 137);
+    background-color: rgb(230, 185, 185);
+
+    /* background-color: rgb(186, 137, 137); */
     position: relative;
     top: 0;
     left: 0;
@@ -15,7 +17,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between; /* Added justification to evenly space the logo and list items */
-    box-shadow: 0 0 1.5vw 0 black;
+    box-shadow: 0 0 1vw 0 black;
 }
 
 #imgDiv {
@@ -72,15 +74,16 @@ a:hover {
         height: auto;
         padding: 1vw;
         align-items: center;
+        z-index: 100;
     }
 
-    ul {
+    .nav-ul {
         flex-direction: column;
         align-items: center; /* Center the list items horizontally */
         margin: 0;
     }
 
-    li {
+    .nav-li {
         margin: 0.5vw 0;
         font-size: 2.5vw;
     }

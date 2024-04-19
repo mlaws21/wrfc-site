@@ -25,38 +25,38 @@ const Navbar = () => {
         <header>
 
             <img src={logo} onClick={handleLogoClick} alt="WRFC Logo" />
-            {(logoClicked || pageWidth > 1000) ? ( <ul>
-                <li>
+            {(logoClicked || pageWidth > 1000) ? ( <ul className='nav-ul'>
+                <li className="nav-li">
                     <a href="/">Home</a>
                 </li>
-                <li>
+                <li className="nav-li">
                     <a href="/about">About</a>
                 </li>
-                <li>
+                <li className="nav-li">
                     <a href="/schedule">Schedule</a>
                 </li>
-                <li>
+                <li className="nav-li">
                     <a href="/roster">Roster</a>
                 </li>
-                <li>
+                <li className="nav-li">
                     <a href="/rules">Rules</a>
                 </li>
-                <li>
+                <li className="nav-li">
                     <a href="/directions">Directions</a>
                 </li>
-                <li>
+                <li className="nav-li">
                     <a href="/merch">Merch</a>
                 </li>
-                <li>
+                <li className="nav-li">
                     <a href="/contact">Contact</a>
                 </li>
-                <li>
+                <li className="nav-li">
                     <a href="/donate">Donate</a>
                 </li>
-                <li>
+                <li className="nav-li">
                     <a href="/reunion">Reunion</a>
                 </li>
-                {pageWidth < 1000 && <li>
+                {pageWidth < 1000 && <li className="nav-li">
                     <p onClick={handleLogoClick}>Close <span id="x">x</span></p>
                 </li>}
             </ul>) : (<p id="menuButton" onClick={handleLogoClick}>Menu</p>)}

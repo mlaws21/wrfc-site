@@ -1,13 +1,121 @@
-#rsvp {
+/* #rsvp {
     color: maroon;
 
-    text-align: center; /* Center the text horizontally */
-    /* width: 100%;  */
+    text-align: center;
+
     font-size: 3vw;
 
+} */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 #reunionMain {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1vw;
+
+    position: absolute;
+    padding: 1%;
+    width: 91%;
+    left: 2.5%;
+    top: 12.5%;
+    height: 80%;
+    overflow-y: scroll;
+    border: 1px solid rgba(128, 128, 128, 0.381);
+    border-radius: 2vw;
+    box-shadow: 0 0 .4vw 0 grey;
+    margin-top: 1%;
+
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.reunion-list-item {
+    font-size: 1vw;
+    padding: 0; /* Removes default padding */
+    margin-left: 2vw;
+    list-style: square;
+    /* display: block; */
+    /* flex-direction: column; Stack items vertically */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#inner {
+
+    margin-left: 4vw;
+    list-style: circle;
+}
+
+.reunion-list {
+    flex-direction: column;
+    align-items: left;
+    margin: 0;
+    
+}
+
+.reunion-text {
+    font-weight: normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.reunion-link {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(76, 76, 255)
+
+}
+
+#super-inside {
+    margin-left: 6vw;
+    /* list-style: inside; */
+}
+
+
+
+@media (max-width: 1000px) {
+    
+
+
+       
+
+    #reunionMain {
+        top: 8%;
+        text-align: left;
+
+        font-size: 3vw;
+    }
+
+    .reunion-list-item,
+    #inner,
+    #super-inside {
+        margin: 0;
+        text-align: left; 
+        padding: 0;
+        
+    }
+
+    .reunion-list {
+        align-items: left; 
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+    .reunion-list-item {
+        font-size: 2.5vw;
+        margin-left: 5vw; 
+    }
+
+    #inner {
+        margin-left: 10vw;
+    }
+
+    #super-inside {
+        margin-left: 15vw;
+    }
+
+
 }

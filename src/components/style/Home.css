@@ -3,15 +3,16 @@
 
 
 p, a {
-    /* font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-    font-family: "Marcellus SC", serif;
+    font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: "Marcellus SC", serif; */
     font-weight: bold;
 
 }
 #title {
-    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
     /* font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;  */
-    font-family: "Marcellus SC", serif;
+    /* font-family: "Marcellus SC", serif; */
 
     font-weight: bolder;
     font-size: 4vw;
@@ -22,7 +23,9 @@ p, a {
 }
 body {
     position: relative;
+    /* background-color: rgb(230, 214, 167); */
     background-color: rgb(230, 214, 167);
+
 }
 
 #news {
@@ -63,6 +66,14 @@ body {
     /* text-shadow: 0 0 0.5vw maroon; */
     text-decoration: underline;
 
+}
+
+#slider {
+    margin-left: 2%;
+    margin-top: 2%;
+
+    /* position: relative; */
+    /* left: 2.5%; */
 }
 
 @media (max-width: 1000px) {
